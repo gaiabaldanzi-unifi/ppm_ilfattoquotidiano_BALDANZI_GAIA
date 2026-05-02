@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <title>Replica layout Baldanzi Gaia - Il fatto quotidiano</title>
+        <link rel="stylesheet" href="css/progetto.css">
+    </head>
+    <body>
+        <div id="overlay" class="overlay"></div>
+
+        <div id="menu-laterale" class="menu-laterale">
+            <div class="menu-scrollabile">
+                <h1 class="testo-primario-menu">Lorem ipsum dolor sit</h1>
+                <p class="testo-secondario-menu">Consectetur adipiscing elit sed do eiusmod tempor</p>
+                <a href="#" class="btn-abbonati-menu-laterale">ABBONATI</a>
+
+                <div class="container-ricerca-menu">
+                    <div class="input-container">
+                        <input type="text" placeholder="CERCA" class="input-cerca" aria-label="Cerca nel sito">
+                        <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-search.svg" class="lente-input" alt="search">
+                    </div>
+                </div>
+
+                <p class="titolo-sezione-menu">TEMI DEL GIORNO</p>
+                <div class="tag-container">
+                    <span class="tag">Argomento A</span><span class="tag">Argomento B</span><span class="tag">Argomento C</span><span class="tag">Argomento D</span><span class="tag">Argomento E</span>
+                </div>
+
+                <div class="separatore-menu"></div>
+
+                <p class="titolo-sezione-menu">ALTRO 1</p>
+                <nav class="lista-menu-sezioni">
+                    <a href="#">Link 1 <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-arrow-right.svg" class="freccia-menu" alt=""></a>
+                    <a href="#">Link 2 <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-arrow-right.svg" class="freccia-menu" alt=""></a>
+                    <a href="#">Link 3 <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-arrow-right.svg" class="freccia-menu" alt=""></a>
+                    <a href="#">Link 4 <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-arrow-right.svg" class="freccia-menu" alt=""></a>
+                    <a href="#">Link 5 <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-arrow-right.svg" class="freccia-menu" alt=""></a>
+                </nav>
+
+                <div class="separatore-menu"></div>
+
+                <p class="titolo-sezione-menu">ALTRO 2</p>
+                <nav class="lista-menu-sezioni">
+                    <a href="#">Tema 1 <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-alt-arrow-right.svg" class="freccia-menu" alt=""></a>
+                    <a href="#">Tema 2 <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-alt-arrow-right.svg" class="freccia-menu" alt=""></a>
+                    <a href="#">Tema 3 <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-alt-arrow-right.svg" class="freccia-menu" alt=""></a>
+                </nav>
+            </div>
+
+            <div class="menu-footer-nero">
+                <a href="#">Progetti Speciali <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-alt-arrow-right.svg" class="freccia-menu-bianca" alt=""></a>
+                <a href="#">Store Digitale <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-alt-arrow-right.svg" class="freccia-menu-bianca" alt=""></a>
+                <div class="social-box">
+                    <span>Seguici su:</span>
+                    <div class="social-icons">
+                        <div class="social-icon">FB</div>
+                        <div class="social-icon">IG</div>
+                        <div class="social-icon">TW</div>
+                        <div class="social-icon">LN</div>
+                        <div class="social-icon">YT</div>
+                        <div class="social-icon">X</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <header class="testata-fissa">
+            <div class="barra-superiore">
+                <div class="contenitore">
+                    <div class="zona-sinistra">
+                        <button class="menu-principale" id="apri-menu">
+                            <img id="icona-menu" src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-menu-desktop.svg" width="24" alt="menu">
+                            <span>MENU</span>
+                        </button>
+                    </div>
+                    <nav class="zona-centrale">
+                        <a href="#">LINK 1</a><a href="#">LINK 2</a><a href="#">LINK 3</a><a href="#">LINK 4</a><a href="#">LINK 5</a>
+                        <a href="#" class="item-freccia" id="btn-mondo-fq">
+                            <span>AREA RISERVATA</span>
+                            <img id="freccia-mondo" src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-alt-arrow-down-small.svg" width="10" alt="freccia">
+                        </a>
+                    </nav>
+                    <div class="zona-destra">
+                        <a href="#" class="btn-rosso">ABBONATI</a>
+                        <a href="#" class="link-utente">
+                            <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-user.svg" alt="user">
+                            <span>ACCEDI</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="submenu-mondo" class="submenu-mondo">
+            <div class="contenitore bg-grigio">
+                <nav class="links-grigi">
+                    <a href="#">SOTTO-LINK 1</a><a href="#">SOTTO-LINK 2</a><a href="#">SOTTO-LINK 3</a>
+                    <a href="#">SOTTO-LINK 4</a><a href="#">SOTTO-LINK 5</a><a href="#">SOTTO-LINK 6</a>
+                </nav>
+            </div>
+        </div>
+
+        <section id="logo-bar" class="logo-bar">
+            <div class="contenitore">
+                <div class="logo-bar-sinistra">
+                    <h1 class="testo-primario-menu">Lorem ipsum dolor sit</h1>
+                    <p class="testo-secondario-menu">Consectetur adipiscing elit sed do eiusmod tempor</p>
+                </div>
+                <div class="logo-bar-centro">
+                    <div class="placeholder-logo">LOGO</div>
+                </div>
+                <div class="logo-bar-destra">
+                    <p>gg/mm/aaaa</p>
+                    <p>Ultimo aggiornamento: 01:23</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="topics-bar">
+            <div class="contenitore bg-grigio">
+                <div id="mini-logo" class="mini-logo-nascondi">LOGO</div>
+                <nav class="links-grigi">
+                    <a href="#">Argomento A</a><a href="#">Argomento B</a><a href="#">Argomento C</a>
+                    <a href="#">Argomento D</a><a href="#">Argomento E</a>
+                </nav>
+
+            </div>
+        </section>
+
+
+        <main class="contenitore-articoli">
+            <section class="articolo-principale">
+                <div class="contenitore border-articolo">
+                    <div class="grid-articolo">
+                        <div class="colonna-main">
+                            <p class="topic-articolo">CATEGORIA</p>
+                            <p class="topic-articolo">gg/mm/aaaa</p>
+                            <h1 class="titolo-articolo">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod. 
+                                <span class="testo-rosso">Ut enim ad minim veniam quis nostrud exercitation ullamco laboris</span>
+                            </h1>
+
+                            <div class="info-post">
+                                <div class="meta-autore">DI NOME COGNOME</div>
+                                <div class="azioni-articolo">
+                                    <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="icona-svg" alt="Condividi">
+                                    <div class="commenti">
+                                        <img src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" class="icona-svg" alt="Commenti">
+                                        <span>(X)</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="corpo-articolo-top">
+                                <div class="placeholder-img-main">IMMAGINE</div>
+                                <div class="estratto-articolo">
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                    <a href="#" class="link-leggicon">Leggi tutto →</a>
+                                </div>
+                            </div>
+
+                            <div class="grid-secondo-piano">
+                                <div class="mini-articolo border-right">
+                                    <p class="topic-mini">FOCUS</p>
+                                    <h2>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</h2>
+                                    <div class="placeholder-img-mini">IMMAGINE</div>
+                                    <div class="info-post-mini">
+                                        <div class="meta-mini">DI NOME COGNOME</div>
+                                        <div class="azioni-articolo mini">
+                                            <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="icona-svg" alt="Condividi">
+                                            <div class="commenti"><img src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" class="icona-svg" alt="Commenti"><span>(X)</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mini-articolo">
+                                    <p class="topic-mini">DETTAGLI</p>
+                                    <h2>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit</h2>
+                                    <div class="placeholder-img-mini">IMMAGINE</div>
+                                    <div class="info-post-mini">
+                                        <div class="meta-mini">DI REDAZIONE</div>
+                                        <div class="azioni-articolo mini">
+                                            <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="icona-svg" alt="Condividi">
+                                            <div class="commenti"><img src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" class="icona-svg" alt="Commenti"><span>(X)</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <aside class="colonna-side">
+                            <div class="articolo-correlato border-bottom">
+                                <div class="placeholder-img-side">IMMAGINE</div>
+                                <p class="topic-mini">CATEGORIA 1</p>
+                                <h2>Quis autem vel eum iure reprehenderit qui in ea voluptate</h2>
+                                <div class="info-post-mini">
+                                    <div class="meta-mini">DI AUTORE</div>
+                                    <div class="azioni-articolo mini">
+                                        <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="icona-svg" alt="Condividi">
+                                        <div class="commenti"><img src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" class="icona-svg" alt="Commenti"><span>(X)</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="articolo-correlato border-bottom">
+                                <p class="topic-mini">CATEGORIA 2</p>
+                                <div class="correlato-flex">
+                                    <h2>At vero eos et accusamus et iusto odio dignissimos ducimus</h2>
+                                    <div class="placeholder-img-thumb">IMMAGINE</div>
+                                </div>
+                                <div class="info-post-mini">
+                                    <div class="meta-mini">DI AUTORE</div>
+                                    <div class="azioni-articolo mini">
+                                        <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="icona-svg" alt="Condividi">
+                                        <div class="commenti"><img src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" class="icona-svg" alt="Commenti"><span>(X)</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="articolo-correlato">
+                                <div class="placeholder-img-side">IMMAGINE</div>
+                                <p class="topic-mini">CATEGORIA 3</p>
+                                <h3>Quis autem vel eum iure reprehenderit qui in ea voluptate</h3>
+                                <div class="info-post-mini">
+                                    <div class="meta-mini">DI AUTORE</div>
+                                    <div class="azioni-articolo mini">
+                                        <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="icona-svg" alt="Condividi">
+                                        <div class="commenti"><img src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" class="icona-svg" alt="Commenti"><span>(X)</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <section class="section-youtube">
+            <div class="contenitore box-rosso">
+
+                <div class="header-youtube">
+                    <div class="linea-decorativa"></div>
+                    <h2 class="titolo-youtube">LOREM IPSUM DOLOR</h2>
+                </div>
+
+                <div class="grid-youtube">
+
+                    <div class="video-side">
+                        <div class="placeholder-video">
+                            <span>VIDEO</span>
+                        </div>
+                    </div>
+
+
+                    <div class="timeline-side">
+
+                        <div class="linea-verticale-continua"></div>
+
+
+                        <div class="timeline-item">
+                            <div class="time-marker">
+                                <span class="dot active-dot"></span>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="badge-row">
+                                    <span class="time">11:00</span>
+                                    <span class="badge-onair">LIVE NOW</span>
+                                </div>
+                                <h3 class="titolo-video">Consectetur adipiscing elit sed do eiusmod tempor</h3>
+                                <p class="sottotitolo-video">CATEGORIA TESTO</p>
+                            </div>
+                        </div>
+
+
+                        <div class="timeline-item item-prossimo">
+                            <div class="velo-coprenza"></div> 
+                            <div class="time-marker">
+                                <span class="dot"></span>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="badge-row">
+                                    <span class="time">12:00</span>
+                                    <span class="badge-fra">Fra 1h</span>
+                                </div>
+                                <div class="flex-preview">
+                                    <h3 class="titolo-video">Ut enim ad minim veniam quis nostrud exercitation ullamco</h3>
+                                    <div class="placeholder-thumb-video">PREVIEW</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-video-evidenza">
+            <div class="contenitore border-black">
+
+                <div class="video-header-row">
+                    <h2 class="titolo-evidenza">VIDEO IN EVIDENZA</h2>
+                    <button id="toggle-video" class="pulsante-mostra-nascondi">
+                        <span class="testo-btn">Nascondi</span>
+                        <span class="freccia-icon"></span>
+                    </button>
+                </div>
+
+
+
+                <div id="video-grid-container" class="griglia-quattro-colonne">
+
+
+                    <article class="singolo-video">
+                        <p class="etichetta-genere">CATEGORIA 1</p>
+                        <div class="box-immagine-grigia">
+                            <span class="label-immagine">IMMAGINE</span>
+                            <div class="mini-play"></div>
+                        </div>
+                        <h3 class="titolo-notizia">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</h3>
+                        <div class="footer-video">
+                            <span class="autore-small">DI AUTORE 1</span>
+                            <div class="box-icone">
+                                <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="icona-svg" alt="Condividi">
+                                <div class="commenti-flex">
+                                    <img src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" class="icona-svg" alt="Commenti">
+                                    <span class="count">(X)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="singolo-video">
+                        <p class="etichetta-genere">CATEGORIA 2</p>
+                        <div class="box-immagine-grigia">
+                            <span class="label-immagine">IMMAGINE</span>
+                            <div class="mini-play"></div>
+                        </div>
+                        <h3 class="titolo-notizia">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</h3>
+                        <div class="footer-video">
+                            <span class="autore-small">DI AUTORE 2</span>
+                            <div class="box-icone">
+                                <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="icona-svg" alt="Condividi">
+                                <div class="commenti-flex">
+                                    <img src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" class="icona-svg" alt="Commenti">
+                                    <span class="count">(X)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="singolo-video">
+                        <p class="etichetta-genere">CATEGORIA 3</p>
+                        <div class="box-immagine-grigia">
+                            <span class="label-immagine">IMMAGINE</span>
+                            <div class="mini-play"></div>
+                        </div>
+                        <h3 class="titolo-notizia">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</h3>
+                        <div class="footer-video">
+                            <span class="autore-small">DI AUTORE 3</span>
+                            <div class="box-icone">
+                                <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="icona-svg" alt="Condividi">
+                                <div class="commenti-flex">
+                                    <img src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" class="icona-svg" alt="Commenti">
+                                    <span class="count">(X)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="singolo-video">
+                        <p class="etichetta-genere">CATEGORIA 4</p>
+                        <div class="box-immagine-grigia">
+                            <span class="label-immagine">IMMAGINE</span>
+                            <div class="mini-play"></div>
+                        </div>
+                        <h3 class="titolo-notizia">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</h3>
+                        <div class="footer-video">
+                            <span class="autore-small">DI AUTORE 4</span>
+                            <div class="box-icone">
+                                <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="icona-svg" alt="Condividi">
+                                <div class="commenti-flex">
+                                    <img src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" class="icona-svg" alt="Commenti">
+                                    <span class="count">(X)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section-blog">
+            <div class="contenitore border-black">
+
+
+                <div class="video-header-row">
+                    <div class="blog-title-group">
+                        <div class="blog-icon-main">ICONA</div>
+                        <h2 class="titolo-evidenza">DAI BLOG</h2>
+                    </div>
+                    <button id="toggle-blog" class="pulsante-mostra-nascondi">
+                        <span class="testo-btn">Nascondi</span>
+                        <span class="freccia-icon"></span>
+                    </button>
+                </div>
+
+
+                <div id="blog-grid-container" class="griglia-quattro-colonne-blog">
+
+
+                    <article class="singolo-blog">
+                        <h3 class="titolo-blog-corsivo">"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor."</h3>
+                        <div class="meta-blog-top">
+                            <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="icona-svg" alt="Condividi">
+                            <div class="commenti-flex">
+                                <img src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" class="icona-svg" alt="Commenti">
+                                <span class="count">(X)</span>
+                            </div>
+                        </div>
+                        <div class="autore-blog-footer">
+                            <div class="avatar-tondo">FOTO</div>
+                            <div class="info-autore">
+                                <span class="nome-autore-blog">DI AUTORE 1</span>
+                                <span class="qualifica-blog">Qualifica Autore</span>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="singolo-blog">
+                        <h3 class="titolo-blog-corsivo">"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor."</h3>
+                        <div class="meta-blog-top">
+                            <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="icona-svg" alt="Condividi">
+                            <div class="commenti-flex">
+                                <img src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" class="icona-svg" alt="Commenti">
+                                <span class="count">(X)</span>
+                            </div>
+                        </div>
+                        <div class="autore-blog-footer">
+                            <div class="avatar-tondo">FOTO</div>
+                            <div class="info-autore">
+                                <span class="nome-autore-blog">DI AUTORE 2</span>
+                                <span class="qualifica-blog">Qualifica Autore</span>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="singolo-blog">
+                        <h3 class="titolo-blog-corsivo">"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor."</h3>
+                        <div class="meta-blog-top">
+                            <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="icona-svg" alt="Condividi">
+                            <div class="commenti-flex">
+                                <img src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" class="icona-svg" alt="Commenti">
+                                <span class="count">(X)</span>
+                            </div>
+                        </div>
+                        <div class="autore-blog-footer">
+                            <div class="avatar-tondo">FOTO</div>
+                            <div class="info-autore">
+                                <span class="nome-autore-blog">DI AUTORE 3</span>
+                                <span class="qualifica-blog">Qualifica Autore</span>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="singolo-blog">
+                        <h3 class="titolo-blog-corsivo">"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor."</h3>
+                        <div class="meta-blog-top">
+                            <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="icona-svg" alt="Condividi">
+                            <div class="commenti-flex">
+                                <img src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" class="icona-svg" alt="Commenti">
+                                <span class="count">(X)</span>
+                            </div>
+                        </div>
+                        <div class="autore-blog-footer">
+                            <div class="avatar-tondo">FOTO</div>
+                            <div class="info-autore">
+                                <span class="nome-autore-blog">DI AUTORE 4</span>
+                                <span class="qualifica-blog">Qualifica Autore</span>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <div class="blog-footer-action">
+                        <a href="#" class="btn-leggi-tutti">LEGGI TUTTI I BLOG</a>
+                    </div>
+
+                </div> 
+            </div>
+        </section>
+
+        <section class="contenitore-articoli">
+            <section class="articolo-principale">
+                <div class="contenitore border-articolo">
+                    <div class="grid-articolo">
+                        <div class="colonna-main">
+                            <p class="topic-articolo">CATEGORIA</p>
+
+
+                            <div class="flex-articolo-top">
+
+
+                                <div class="testo-articolo-lato">
+                                    <h1 class="titolo-articolo">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod. 
+                                        <span class="testo-rosso">Ut enim ad minim veniam quis nostrud exercitation ullamco laboris</span>
+                                    </h1>
+
+                                    <div class="info-post">
+                                        <div class="meta-autore">DI NOME COGNOME</div>
+                                        <div class="azioni-articolo">
+                                            <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="icona-svg" alt="Condividi">
+                                            <div class="commenti">
+                                                <img src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" class="icona-svg" alt="Commenti">
+                                                <span>(X)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="img-articolo-grande">IMMAGINE</div>
+
+                            </div>
+                        </div>
+
+                        <aside class="colonna-side">
+                            <div class="articolo-correlato">
+                                <div class="placeholder-img-side">IMMAGINE</div>
+                                <p class="topic-mini">CATEGORIA</p>
+                                <h2>Quis autem vel eum iure reprehenderit qui in ea voluptate</h2>
+                                <div class="info-post-mini">
+                                    <div class="meta-mini">DI AUTORE</div>
+                                    <div class="azioni-articolo mini">
+                                        <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="icona-svg" alt="Condividi">
+                                        <div class="commenti"><img src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" class="icona-svg" alt="Commenti"><span>(X)</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <footer class="footer-principale">
+            <div class="contenitore">
+                <div class="contenitore-footer">
+
+                    <div class="footer-logo-container">
+                        <div class="footer-logo">LOGO</div>
+                    </div>
+
+                    <div class="footer-separatore"></div>
+
+
+                    <nav class="footer-nav-row">
+                        <a href="#">TERMINI E CONDIZIONI D'USO</a>
+                        <a href="#">PRIVACY POLICY</a>
+                        <a href="#">COOKIE POLICY</a>
+                        <a href="#">PUBBLICITÀ</a>
+                        <a href="#">ABBONATI</a>
+                        <a href="#">CONTATTI</a>
+                    </nav>
+
+                    <div class="footer-separatore"></div>
+
+
+                    <nav class="footer-nav-row secondary">
+                        <a href="#">PROGETTO 1</a>
+                        <a href="#">PROGETTO 2</a>
+                        <a href="#">PROGETTO 3</a>
+                        <a href="#">PROGETTO 4</a>
+                        <a href="#">PROGETTO 5</a>
+                    </nav>
+
+                    <div class="footer-separatore"></div>
+
+
+                    <div class="footer-social-row">
+                        <div class="social-icons-footer">
+                            <div class="social-icon">FB</div>
+                            <div class="social-icon">IG</div>
+                            <div class="social-icon">TW</div>
+                            <div class="social-icon">LN</div>
+                            <div class="social-icon">YT</div>
+                            <div class="social-icon">X</div>
+                        </div>
+                    </div>
+
+                    <div class="footer-separatore"></div>
+
+
+                    <div class="footer-copyright">
+                        <p>© 2009 - 2026 NOME SOCIETÀ S.p.A. - C.F. e P.IVA 01234567890</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/progetto.js"></script>
+    </body>
+</html>
